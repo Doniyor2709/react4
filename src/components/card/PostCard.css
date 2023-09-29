@@ -1,0 +1,14 @@
+.cards .text p{
+color: rgb(212, 0, 0);
+}
+
+.text{
+  background-color: rgb(213, 213, 213);
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat( 2, 1fr);
+  column-gap: 20px;
+  gap: 20px;
+}

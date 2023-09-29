@@ -1,0 +1,17 @@
+header .active {
+  color: red !important;
+}
+
+header .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header{
+  background-color: #109BE9;
+}
+
+
+.nav-link{
+  color: white !important;
+}
