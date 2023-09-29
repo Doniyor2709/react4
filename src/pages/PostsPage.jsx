@@ -6,6 +6,8 @@ import { toast } from "react-toastify";
 import Loading from "../components/shares/Loading";
 import { LIMIT } from "../constants";
 
+import "./PostsPage.css"
+
 export class PostsPage extends Component {
   state = {
     posts: [],
@@ -67,7 +69,7 @@ export class PostsPage extends Component {
               .fill(1)
               .map((_, i) => (
                 <button
-                  className={i + 1 === activePage ? "bg-danger" : ""}
+                  className={i + 1 === activePage ?  "pagi " : ""}
                   onClick={() => getPage(i + 1)}
                 >
                   {i + 1}

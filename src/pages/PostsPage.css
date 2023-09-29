@@ -1,0 +1,15 @@
+.pagi{
+  border-radius: 8px;
+  border:  2px solid rgb(54, 230, 0);
+  color: white;
+  background-color: rgb(76, 27, 167);
+}
+
+button{column-gap: 6px !important;
+  top: 30px;
+  position: relative;
+left: 40%;
+  border:  2px solid rgb(54, 230, 0);
+  color: white;
+  background-color: rgb(0, 123, 255);
+}
